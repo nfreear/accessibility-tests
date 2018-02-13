@@ -1,0 +1,25 @@
+{
+  "#": "Automated accessibility testing ~ https://github.com/pa11y/pa11y-ci",
+
+  "defaults": {
+    "debug": true,
+    "X-reporter": "html",
+    "screen-capture": ".",
+    "standard": "WCAG2A",
+    "X-root-element": ".post",
+    "threshold": 2,
+    "timeout": 5000
+  },
+  "urls": [
+    "https://nick.freear.org.uk/2017/05/14/gaad-widget.html?_ua=pa11y-ci",
+    "http://cloudworks.ac.uk/?_ua=pa11y-ci",
+    "https://embed.open.ac.uk/?_ua=pa11y-ci",
+    "https://embed.open.ac.uk/popup/pod/student-experiences/db6cc60d6b?theme=oup-light&_ua=pa11y-ci",
+    "https://chiron.open.ac.uk/?_ua=pa11y-ci"
+  ],
+
+  "X-DISABLED--urls": [
+    "https://iet.open.ac.uk/?_ua=pa11y-ci",
+    "http://www.nquire-it.org/#/home"
+  ]
+}
