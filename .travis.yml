@@ -6,3 +6,12 @@ node_js: 6
 # install: npm install
 
 # test: npm test
+
+jobs:
+  include:
+    - stage: pa11y-ci futurelearn
+      script: npm run pa11y-ci-fl
+    - stage: pa11y-ci eprints
+      script: npm run pa11y-ci-fl
+
+# End.

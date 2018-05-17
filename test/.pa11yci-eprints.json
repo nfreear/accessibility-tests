@@ -1,0 +1,19 @@
+{
+  "#": "Automated accessibility testing ~ https://github.com/pa11y/pa11y-ci",
+
+  "defaults": {
+    "debug": true,
+    "screen-capture": ".",
+    "standard": "WCAG2AA",
+    "X-root-element": ".post",
+    "threshold": 2,
+    "timeout": 5000,
+    "X-wait": 2000
+  },
+  "urls": [
+    "http://demoprints.eprints.org/?_ua=pa11y-ci"
+  ],
+  "X-DISABLED--urls": [
+    "http://demoprints.eprints.org/cgi/users/login?target=http%3A%2F%2Fdemoprints.eprints.org%2Fcgi%2Fusers%2Fhome"
+  ]
+}

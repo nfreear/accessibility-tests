@@ -1,0 +1,32 @@
+{
+  "#": "Automated accessibility testing ~ https://github.com/pa11y/pa11y-ci",
+
+  "defaults": {
+    "debug": true,
+    "X-reporter": "html",
+    "screen-capture": ".",
+    "standard": "WCAG2AA",
+    "X-root-element": ".post",
+    "threshold": 2,
+    "timeout": 5000,
+    "wait": 2000,
+    "X-scripts": { }
+  },
+  "urls-CC": [
+    "https://www.joedolson.com/tools/color-contrast.php?color=%23999&color2=%23fff"
+  ],
+  "urls": [
+    "https://www.futurelearn.com/?_ua=pa11y-ci",
+    "https://www.futurelearn.com/sign-in"
+  ],
+  "X-DISABLED--urls": [
+    "https://www.futurelearn.com/?_ua=pa11y-ci",
+    "https://www.futurelearn.com/sign-in",
+    "https://www.futurelearn.com/courses",
+    "https://www.futurelearn.com/courses/science-experiments/",
+    "https://www.futurelearn.com/courses/science-experiments/7/todo/23115",
+    "https://www.futurelearn.com/courses/science-experiments/7/steps/270023#!-Video",
+    "https://www.futurelearn.com/courses/science-experiments/7/quizzes/270035/introduction#!-Test-or-p2p",
+    "https://www.futurelearn.com/courses/science-experiments/7/activity-feed#!-Forum-or-discuss"
+  ]
+}

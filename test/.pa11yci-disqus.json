@@ -1,0 +1,19 @@
+{
+  "#": "Automated accessibility testing ~ https://github.com/pa11y/pa11y-ci",
+
+  "defaults": {
+    "debug": true,
+    "standard": "WCAG2AA",
+    "timeout": 8000,
+    "wait": 4000,
+    "X--verifyPage": "https://disqus.com/embed/comments/"
+  },
+  "urls": [
+    "http://localhost:9001/test/disqus.html?_ua=pa11y-ci",
+    "https://disqus.com/embed/comments/?base=default&f=disqus-demo-plus&t_i=5146622591&t_u=https%3A%2F%2Fabout.disqus.com%2Fdisqus-demo-page-plus&t_d=%20Disqus%20Demo&t_t=%20Disqus%20Demo&s_o=default#version=8f43bbfb9b3412e3c4830f9fabb4ff3f"
+  ],
+  "X--urls": [
+    "https://about.disqus.com/disqus-demo-page-basic?_ua=pa11y-ci",
+    "https://about.disqus.com/disqus-demo-page-plus"
+  ]
+}
